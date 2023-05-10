@@ -31,7 +31,7 @@ namespace Homework_number_38
 
         public void ShowHeroInfo()
         {
-            Console.WriteLine($"XP -{_health} DM -{_damage} AR - {_armour}");
+            Console.WriteLine($"XP -{_health} DM -{_damage} AR - {_armor}");
         }
     }
 }
