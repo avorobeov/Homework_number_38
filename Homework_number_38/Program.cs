@@ -8,9 +8,9 @@ namespace Homework_number_38
         {
             int health = 100;
             int damage = 100;
-            int armour = 100;
+            int armor = 100;
 
-            Hero hero = new Hero(health, damage, armour);
+            Hero hero = new Hero(health, damage, armor);
 
             hero.ShowHeroInfo();
         }
@@ -20,13 +20,13 @@ namespace Homework_number_38
     {
         private int _health;
         private int _damage;
-        private int _armour;
+        private int _armor;
 
-        public Hero(int health, int damage, int armour)
+        public Hero(int health, int damage, int armor)
         {
             _health = health;
             _damage = damage;
-            _armour = armour;
+            _armor = armor;
         }
 
         public void ShowHeroInfo()
