@@ -12,7 +12,7 @@ namespace Homework_number_38
 
             Hero hero = new Hero(health, damage, armor);
 
-            hero.ShowHeroInfo();
+            hero.ShowInfo();
         }
     }
 
@@ -29,7 +29,7 @@ namespace Homework_number_38
             _armor = armor;
         }
 
-        public void ShowHeroInfo()
+        public void ShowInfo()
         {
             Console.WriteLine($"XP -{_health} DM -{_damage} AR - {_armor}");
         }
